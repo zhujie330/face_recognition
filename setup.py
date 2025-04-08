@@ -12,10 +12,10 @@ with open('HISTORY.rst') as history_file:
 requirements = [
     'face_recognition_models>=0.3.0',
     'Click>=6.0',
-    'dlib>=19.7',
     'numpy',
     'Pillow'
 ]
+
 
 test_requirements = [
     'tox',
